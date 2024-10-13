@@ -40,12 +40,11 @@ body {
 
 .menu ul {
   list-style: none;
-  height: 100vh;
 }
 
 .menu li {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   margin: 15px auto;
 }
 
@@ -57,6 +56,17 @@ body {
   color: #828485;
   font-size: 14px;
 }
+.description-two{
+    font-size: 16px;
+}
+.foto-maria{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+
+}
 .foto {
   width: 50px;
   height: 50px;
@@ -65,43 +75,46 @@ body {
 }
 
 .icon-container {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    width: 259px;
-    color: #828485;
-    gap: 20px;
-  }
-  
-  .icon {
-    font-size: 25px;
-  }
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 259px;
+  color: #828485;
+  gap: 20px;
+}
+
+.icon {
+  font-size: 25px;
+}
 
 .menu span {
   font-size: 18px;
   color: white;
 }
 li {
-    display: flex;
-    justify-content: center;
+  display: flex;
 }
 
 /* Estilos del botón */
 .custom-button {
-    background-color: #A491D2;  /* Color de fondo del botón */
-    color: #ffffff;               /* Color del texto */
-    border: none;               /* Sin borde */
-    padding: 10px 20px;         /* Espaciado interno */
-    font-size: 16px;            /* Tamaño del texto */
-    cursor: pointer;            /* Cambiar el cursor al pasar por encima */
-    transition: background-color 0.3s ease; /* Transición suave al cambiar color */
-    justify-content: center;
-  }
-  
-  /* Efecto hover para el botón */
-  .custom-button:hover {
-    background-color: #8a6fc6;  /* Cambia el color de fondo al pasar el ratón */
-  }
+  background-color: #a491d2;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  justify-content: center;
+}
+
+/* Efecto hover para el botón */
+.custom-button:hover {
+  background-color: #8a6fc6;
+}
+
+.button-chat {
+    flex-direction: column;
+}
 
 /* Contenido a la derecha */
 .contenido {
@@ -115,11 +128,13 @@ li {
 }
 
 header {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 .logo {
-  width: 100px;
+  width: 40%;
   height: auto;
 }
 
@@ -127,9 +142,11 @@ header {
   text-align: center;
 }
 
-.info-texto h2 {
-  font-size: 24px;
+.info-texto h1 {
+  font-size: 40px;
   margin-bottom: 10px;
+  font-weight: 300;
+  
 }
 
 .info-texto p {
@@ -137,3 +154,4 @@ header {
   color: #333;
   max-width: 600px;
 }
+
