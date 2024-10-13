@@ -25,10 +25,14 @@ body {
 
 /* Menú a la izquierda (aside) */
 .menu {
-  flex: 1;
+  /*flex: 1;*/
   background-color: #ffffff;
-  /* color: #1b1f21; */
-  padding: 20px;
+  width: 25%;
+
+}
+.name-descripcion{
+    display: flex;
+    flex-direction: column;
 }
 
 .menu h2 {
@@ -45,7 +49,7 @@ body {
 .menu li {
   display: flex;
   align-items: center;
-  margin: 15px auto;
+  padding: 20px;
 }
 
 .name {
@@ -78,7 +82,7 @@ body {
   display: flex;
   justify-content: end;
   align-items: center;
-  width: 259px;
+  width: 160px;
   color: #828485;
   gap: 20px;
 }
@@ -100,11 +104,11 @@ li {
   background-color: #a491d2;
   color: #ffffff;
   border: none;
-  padding: 10px 20px;
+  padding: 20px 60px;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  justify-content: center;
+  margin: 15px auto;
 }
 
 /* Efecto hover para el botón */
@@ -119,7 +123,6 @@ li {
 /* Contenido a la derecha */
 .contenido {
   flex: 2;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
