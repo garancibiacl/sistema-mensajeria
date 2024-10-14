@@ -28,6 +28,7 @@ body {
   /*flex: 1;*/
   background-color: #ffffff;
   width: 25%;
+  border-right: 1px solid rgba(204, 204, 204, 0.5);
 
 }
 .name-descripcion{
@@ -76,6 +77,9 @@ body {
   height: 50px;
   border-radius: 50%;
   margin-right: 15px;
+}
+hr{
+    border: 1px solid rgba(204, 204, 204, 0.5);
 }
 
 .icon-container {
